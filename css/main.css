@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container{
+    border-collapse: collapse;
+    font-size: 35px;
+    border: none;
+    box-shadow: 0px 0px 15px 30px whitesmoke;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.table_head_row{
+    background-color: rgb(9, 153, 114);
+    color: #fff; 
+    font-family: 'Concert One', cursive;
+}
+.th_one{
+    border-top-left-radius: 15px;
+}
+.th_last{
+    border-top-right-radius: 15px;
+}
+.domenic{
+    background-color: #fff;
+}
+.sally{
+    color: rgb(9, 153, 114);
+    background-color: whitesmoke;
+    border-top: 3px solid rgb(209, 209, 209);
+    border-bottom: 3px solid rgb(209, 209, 209);
+    font-family: 'Concert One', cursive;
+}
+.nick{
+    border-bottom: 5px solid rgb(9, 153, 114);
+    background-color: #fff;
+}
+.container th, td{
+    border: none;
+    padding: 35px 70px;
+}
